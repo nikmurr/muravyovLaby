@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:textSize">28sp</item> <!-- Размер текста -->
+        <item name="android:textColor">@color/base_background</item> <!-- Цвет текста -->
+        <item name="android:backgroundTint">@color/base_olive</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:radius">120dp</item>
+    </style>
+
+    <style name="MyButtonStyleMini" parent="MyButtonStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+    </style>
+
+    <style name="MyButtonStyleMiniNeutral" parent="MyButtonStyleMini">
+        <item name="android:textColor">@color/base_background</item>
+        <item name="android:backgroundTint">@color/extra_blue</item>
+    </style>
+
+    <style name="MyButtonStyleMiniNegative" parent="MyButtonStyleMini">
+        <item name="android:textColor">@color/base_white</item>
+        <item name="android:backgroundTint">@color/extra_pink</item>
+    </style>
+
+    <style name="MyImageButtonStyle" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:backgroundTint">@color/base_olive</item>
+        <item name="android:tint">@color/base_olive</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:radius">120dp</item>
+        <item name="android:contentDescription">"Описание иконки"</item>
+    </style>
+
+    <style name="MyAlertDialogButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/base_olive</item>
+    </style>
+
+    <style name="MyAlertDialogButtonStyleNegative" parent="MyAlertDialogButtonStyle">
+        <item name="android:textColor">@color/extra_pink</item>
+    </style>
+
+    <style name="MyAlertDialogButtonStyleNeutral" parent="MyAlertDialogButtonStyle">
+        <item name="android:textColor">@color/base_white</item>
+    </style>
+
+    <style name="MyBottomNavigationStyle" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/bottom_navigation_background</item>
+        <item name="itemIconSize">56dp</item>
+        <item name="itemIconTint">@color/base_white</item>
+        <item name="itemPaddingBottom">4dp</item>
+        <item name="itemPaddingTop">4dp</item>
+        <item name="labelVisibilityMode">unlabeled</item>
+        <item name="itemBackground">@null</item>
+        <item name="itemActiveIndicatorStyle">@null</item>
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/alert_dialog_bg</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+        <item name="android:windowTitleStyle">@style/AppTextMediumTextBold</item>
+        <item name="android:textAppearance">@style/AppTextSmallText</item>
+        <item name="android:textColor">@color/base_white</item>
+    </style>
+</resources>

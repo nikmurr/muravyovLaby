@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="base_white">#FFFFFFFF</color>
+    <color name="base_background">#222222</color>
+    <color name="base_olive">#DFFFB6</color>
+    <color name="extra_pink">#FF7777</color>
+    <color name="extra_blue">#B6DCFF</color>
+    <color name="warm_base">#FFE2B6</color>
+    <color name="warm_background">#3E3425</color>
+    <color name="cold_base">#B6DCFF</color>
+    <color name="cold_background">#25343E</color>
+    <color name="hot_base">#FFC7B6</color>
+    <color name="hot_background">#3E2D25</color>
+    <color name="verycold_base">#B6CAFF</color>
+    <color name="verycold_background">#25283E</color>
+    <color name="neutral_base">#E6E6E6</color>
+    <color name="neutral_background">#313131</color>
+    <color name="bottom_navigation_background">#2C2C2C</color>
+
+    <color name="alpha_base_olive">#12DFFFB6</color>
+    <color name="alpha_extra_pink">#12FF7777</color>
+    <color name="alpha_extra_blue">#12B6DCFF</color>
+    <color name="alpha_base_white">#12FFFFFF</color>
+
+    <color name="mtrl_textinput_default_box_stroke_color">#FFFFFFFF</color>
+</resources>

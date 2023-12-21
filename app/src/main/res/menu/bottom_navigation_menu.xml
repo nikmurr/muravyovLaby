@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_rules"
+        android:icon="@drawable/menu_item_01"
+        android:title="" />
+    <item
+        android:id="@+id/action_play"
+        android:icon="@drawable/menu_item_02"
+        android:title="" />
+    <item
+        android:id="@+id/action_stats"
+        android:icon="@drawable/menu_item_03"
+        android:title="" />
+</menu>

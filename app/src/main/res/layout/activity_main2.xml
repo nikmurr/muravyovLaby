@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        style="@style/AppTextTitleText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="32dp"
+        android:text="Правила"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView1"
+        style="@style/MyBottomNavigationStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation_menu" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10">
+
+        <LinearLayout
+            android:id="@+id/mainTextLayout"
+            style="@style/AppTextMediumTextBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="32dp"
+            android:isScrollContainer="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewRules1"
+                    style="@style/AppTextMediumTextBold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="В чём суть игры"
+                    android:textColor="@color/base_olive" />
+
+                <TextView
+                    android:id="@+id/textViewRules2"
+                    style="@style/AppTextSmallText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="Цель игрока – как можно быстрее и за как можно меньшее число попыток угадать неизвестное ему число." />
+
+                <TextView
+                    android:id="@+id/textViewRules3"
+                    style="@style/AppTextSmallText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="Игра будет подсказывать игроку, насколько близко он к числу, при помощи следующих тэгов: \n• Теплее – игрок стал ближе; \n• Холоднее – игрок стал дальше; \n• Очень холодно – игрок очень далеко от загаданного числа (загаданное число больше или меньше указанного игроком не менее чем в сто раз, и разница не менее чем 1000); \n• Горячо – игрок очень близок к загаданному числу (разница менее 10)." />
+
+                <TextView
+                    android:id="@+id/textViewRules4"
+                    style="@style/AppTextSmallText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="За каждый ввод числа или откат к предыдущему счетчик попыток будет увеличиваться на 1. Также, пока идет игра, будет идти таймер." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewRules5"
+                    style="@style/AppTextMediumTextBold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="Как начать игру"
+                    android:textColor="@color/base_olive" />
+
+                <TextView
+                    android:id="@+id/textViewRules6"
+                    style="@style/AppTextSmallText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="Нажмите на большую кнопку “Начать” на экране Игра." />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewRules7"
+                    style="@style/AppTextMediumTextBold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="Как играть"
+                    android:textColor="@color/base_olive" />
+
+                <TextView
+                    android:id="@+id/textViewRules8"
+                    style="@style/AppTextSmallText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="Для управления игрой есть три основных кнопки: \n• Откат – вернуться к предыдущему введенному числу; \n• Принять – принять число от игрока; \n• Сдаться – завершить партию поражением; \nЕсли число корректное, игра примет его и выдаст результат, насколько игрок близок к загаданному числу." />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/image_tip" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewRules9"
+                    style="@style/AppTextMediumTextBold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="Экран статистики"
+                    android:textColor="@color/base_olive" />
+
+                <TextView
+                    android:id="@+id/textViewRules10"
+                    style="@style/AppTextSmallText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="На этом экране игрок может посмотреть или очистить историю всех его партий. " />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewRules11"
+                style="@style/AppTextTitleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Удачи!"
+                android:textColor="@color/extra_blue"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

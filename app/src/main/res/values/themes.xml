@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Course_work" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/font_regular</item>
+        <item name="colorPrimary">@color/base_background</item>
+        <item name="android:windowBackground">@color/base_background</item>
+    </style>
+
+    <style name="Theme.Course_work" parent="Base.Theme.Course_work"  >
+        <item name="colorPrimary">@color/base_background</item>
+    </style>
+</resources>
