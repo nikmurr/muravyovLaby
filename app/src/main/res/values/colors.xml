@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_bg">#F6FCF3</color>
+    <color name="dark_bg">#151515</color>
+    <color name="accent">#415337</color>
+    <color name="base">#C5D3BD</color>
+    <color name="base_lighter">#DEE8D9</color>
+    <color name="extra_accent">#E36549</color>
+    <color name="extra_base">#F9EBEB</color>
+
+</resources>
