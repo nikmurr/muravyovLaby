@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:padding="2dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Button1"
+            android:id="@+id/button1" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="0.04"
+            android:layout_height="0dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Button2"
+            android:id="@+id/button2" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="0.04"
+            android:layout_height="0dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Button3"
+            android:id="@+id/button3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Button4"
+            android:id="@+id/button4" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="0.04"
+            android:layout_height="0dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Button5"
+            android:id="@+id/button5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:padding="2dp"
+        android:gravity="bottom">
+
+        <!-- Здесь добавьте свои элементы, если необходимо -->
+    </LinearLayout>
+
+</LinearLayout>
