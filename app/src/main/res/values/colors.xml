@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="base_white">#FFFFFFFF</color>
+    <color name="base_background">#222222</color>
+    <color name="base_olive">#DFFFB6</color>
+    <color name="extra_pink">#FF7777</color>
+    <color name="extra_blue">#B6DCFF</color>
+    <color name="bottom_navigation_background">#2C2C2C</color>
+
+    <color name="alpha_base_olive">#12DFFFB6</color>
+    <color name="alpha_extra_pink">#12FF7777</color>
+    <color name="alpha_extra_blue">#12B6DCFF</color>
+    <color name="alpha_base_white">#12FFFFFF</color>
+
+    <color name="mtrl_textinput_default_box_stroke_color">#FFFFFFFF</color>
+</resources>

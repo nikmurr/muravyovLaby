@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTextBaseStyle">
+        <item name="android:fontFamily">@font/font_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/base_white</item>
+    </style>
+
+    <style name="AppTextSmallText">
+        <item name="android:textAppearance">@style/AppTextBaseStyle</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/base_white</item>
+    </style>
+
+    <style name="AppTextSmallTextBold">
+        <item name="android:textAppearance">@style/AppTextSmallText</item>
+        <item name="android:fontFamily">@font/font_medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/base_white</item>
+    </style>
+
+    <style name="AppTextMediumText">
+        <item name="android:textAppearance">@style/AppTextBaseStyle</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/base_white</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="AppTextMediumTextBold">
+        <item name="android:textAppearance">@style/AppTextMediumText</item>
+        <item name="android:fontFamily">@font/font_medium</item>
+        <item name="android:textColor">@color/base_white</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="AppTextTitleText">
+        <item name="android:textAppearance">@style/AppTextBaseStyle</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="AppTextTitleTextBold">
+        <item name="android:textAppearance">@style/AppTextTitleText</item>
+        <item name="android:fontFamily">@font/font_medium</item>
+    </style>
+
+    <style name="AppTextBigText">
+        <item name="android:textAppearance">@style/AppTextBaseStyle</item>
+        <!--<item name="android:textSize">92sp</item>-->
+        <item name="android:textColor">@color/base_olive</item>
+
+    </style>
+</resources>
